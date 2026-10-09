@@ -26,12 +26,145 @@ Data for this analysis were extracted from two main sources. The datasets were s
 - The Humanitarian Data Exchange website (https://data.humdata.org/dataset/wfp-food-prices-for-philippines); and
 - the Philippine Statistics Authority (PSA) database (https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2M__NWSNEW/0052M4AWB08.px/?rxid=6eee1255-26f2-4eb6-98bc-0117e6b5c47b).
 
-All datasets were then transformed (cleaned and organized) via Google Sheets in order to be more appropriate for PostgreSQL storage and analysis. 
+All datasets were then transformed (cleaned and organized) via Google Sheets in order to be more appropriate for PostgreSQL storage and analysis.
+
+<img width="740" height="516" alt="ERD_Restaurant" src="https://github.com/user-attachments/assets/493dde6c-7c20-4d93-af85-b30d277ca29b" />
+
+The Entity Relationship Diagram (ERD) for these datasets via PostgreSQL is shown below.
 
 ## Executive Summary ## 
 
 A chicken-based menu is the most affordable menu for restaurant stakeholders. Prioritizing such a menu could also enable the restaurant to afford other commodities that can complement chicken-based dishes like onions, garlic, rice, and potatoes. Due to their unpredictable pricing, fruits and vegetable commodities should not be prioritized for the restaurant’s initial operations. 
 
 The restaurant should also be placed in a location with large amounts of people, preferably places of interest for both residents and non-residents alike. Recommended places should be hubs for travelers, tourists, students, and employees in order for stakeholders to maximize sales and revenue. 
+
+## Insights Discussion ## 
+### Metro Manila Monthly Average Food Pricing and Change Rate ###
+<img width="1978" height="909" alt="Monthly Avg  and Rate Change Pct (Metro Manila)" src="https://github.com/user-attachments/assets/84f37760-91fe-4822-985a-f53088f9ac62" />
+
+- Within the last two years, food prices in the region have risen steadily with some fluctuations across the years.
+- The graph suggests that average food prices reach their highest from November to January.
+  - These months can be described as within the Philippine Christmas season.
+  - Prices could rise during this season due to heightened demand for food products. 
+
+- Meanwhile, food prices fall to their lowest around February to June.
+  - Can be explained by the two intense seasons occurring during these months.
+  - February to May are the local summer season.
+    - Intense heat could cause other factors that influence food prices to fall.
+    - The electric grid is usually strained during summer time, which can cause food farmers and vendors to promptly sell their produce rather than storing them.
+    - June meanwhile is the beginning of the typhoon seasons when flooding is common.
+  - In early 2026, prices for gasoline and diesel rose up.
+    - While it should have a massive impact, the data shows that average food prices in the region did not rise.
+
+- Actionable Insights
+  - Stakeholders should try to balance high costs during the Christmas season.
+    - Christmas marketing is highly recommended to ensure a steady flow of potential customers.
+    - It might be beneficial to also invest in storage facilities (e.g. freezers) to ensure that food bought at cheaper prices from before can still be used if possible.
+
+### Food Category Average Price Comparison ###
+<img width="1962" height="981" alt="Category Avg Price (2024 - 2026)" src="https://github.com/user-attachments/assets/50e83d27-29db-4597-8c99-3487a5cdef87" />
+
+- Meat, fish, and egg categories have the highest recorded average prices.
+  - The cheapest being egg and the most expensive being shrimp.
+  
+- Regular, milled rice is the cheapest under cereals and tubers.
+  
+- Vegetables and fruits prices are more diverse.
+
+### Seafood Monthly Average Prices ###
+<img width="2047" height="909" alt="Seafood_comm (2)" src="https://github.com/user-attachments/assets/6c20e608-7577-46f7-9ad0-f071a7775b3d" />
+
+- Analysis shows that the tiger shrimp variety is consistently the most expensive seafood product.
+
+- Tilapia meanwhile is the cheapest and the overall most stable.
+  - Tilapia’s monthly average prices do not fluctuate as much as the others’
+
+- Actionable insights
+  - Avoid including the tiger shrimp variety for the restaurant’s potential menu.
+    - If shrimp is necessary, it is better to choose the endeavor variety which is significantly cheaper than the tiger one.
+
+  - For fish, the restaurant can offer dishes that use either tilapia or milkfish (bangus).
+    - These two fish are considered staples of a typical Filipino household.
+    - Filipino customers should be familiar with them.
+
+### Vegetables and Fruits Average Prices ###
+<img width="1979" height="909" alt="Vegetables and Fruits" src="https://github.com/user-attachments/assets/58dfbb18-2444-4ec5-bf68-5de093a61741" />
+
+- Price fluctuations are more common for vegetables and fruits.
+  - Can be explained by the unstable agricultural economy of the country.
+
+- Vegetables
+  - Garlic, onions, and ginger.
+    - Garlic is consistently the highest priced produce as per the data.
+      - Though it decreased sharply in March 2026, its pricing is stable
+    - White onions are cheaper than red onions.
+      - Its change rates are also generally much more stable with minimal fluctuations.
+     
+    - Tomatoes
+      - Tomatoes reflect the analysis that food becomes more expensive as December approaches; and it is the lowest during the summer seasons.
+      - Though prices for tomatoes start to rise mid-year.
+
+    - Other vegetables
+      - Carrots show dramatic fluctuations across the period. 
+        - In contrast to tomatoes, carrot prices fall as Christmas season approaches.
+          
+- Fruits
+  - Data show unstable pricing for carabao mangoes and calamansi.
+    - Carabao mangoes can be seen as the Philippines’ staple fruit, alongside bananas.
+      - Usually used for dessert.
+    - Calamansi is often used as a condiment.
+
+- Actionable insights
+  - Garlic and onions are necessary commodities for most kitchens.
+    - Recommendable to buy as much garlic as possible whenever prices dip.
+    - As for onions, given recent trends, white onions are considerably cheaper and their pricing is much more predictable.
+
+  - As for other vegetables, stakeholders might have to consider seasonal-based menus in order to accommodate varying prices.
+  - Unless the restaurant considers offering fruit-based desserts in its menu, it is advisable that fruits are not to be prioritized.
+    - Mango prices are too volatile and too expensive as well as too limited as raw material.
+    - Calamansi prices are the same and are traditionally considered as miscellaneous condiments in most Filipino restaurants.
+    - Bananas have the most stability but are limited as a recipe item like mango.
+
+### Meat Average Prices ###
+<img width="2035" height="909" alt="Meat" src="https://github.com/user-attachments/assets/d59438fd-8233-4ac8-ba71-879f388f6b71" />
+
+- Meat prices are also varied but each commodity priced significantly within a certain range.
+  
+- Chicken
+  - The cheapest meat commodity and the stablest. 
+  - Shows minimal inflation, the price being usually between 200 and 230 pesos.
+
+ - Pork
+  - Pork options are within the middle ranges.
+  - Significantly more expensive than chicken and slightly cheaper than beef commodities.
+  - Average pricing is much more unstable.
+    - Data suggest that pork products become cheaper mid-year, around August specifically.
+    - While Christmas 2025 shows pork prices to have dropped, they have also risen last year.
+
+- Beef
+  - By far the most expensive meat commodity.
+  - Prices steadily rise for beef commodities with a sharp increase for beef without bones starting March 2026.
+
+- Actionable insights
+  - Chicken-based dishes are highly recommended to be prioritized.
+    - They can also be easy to market to people interested in fitness as a good source of protein.
+    - Chicken is also popular and familiar to potential customers.
+    - It can also be eaten by people with dietary-restrictions due to religious beliefs (e.g. Muslims, Jews, Christians).
+  - Avoid beef-based dishes due to its high pricing.
+    - Can significantly increase restaurant expenses for minimal revenue.
+  - Pork-based dishes can be included in the menu, but expenses will be higher than chicken-based ones even though the revenue they bring would be similar.
+    - Both pork and chicken are similarly popular among Filipinos.
+    - However, health-conscious customers like senior citizens would generally avoid pork due to their reputation as food with high-cholesterol count.
+
+
+
+
+
+
+
+
+
+
+
 
 
