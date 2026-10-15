@@ -30,7 +30,7 @@ All datasets were then transformed (cleaned and organized) via Google Sheets in 
 
 <img width="740" height="516" alt="ERD_Restaurant" src="https://github.com/user-attachments/assets/493dde6c-7c20-4d93-af85-b30d277ca29b" />
 
-The Entity Relationship Diagram (ERD) for these datasets via PostgreSQL is shown below.
+The Entity Relationship Diagram (ERD) for these datasets via PostgreSQL is shown above.
 
 ## Executive Summary ## 
 
