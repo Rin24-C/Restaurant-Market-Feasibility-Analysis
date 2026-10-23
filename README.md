@@ -156,11 +156,64 @@ The restaurant should also be placed in a location with large amounts of people,
     - Both pork and chicken are similarly popular among Filipinos.
     - However, health-conscious customers like senior citizens would generally avoid pork due to their reputation as food with high-cholesterol count.
 
+### Rice Average Prices ###
+<img width="1983" height="909" alt="Rice" src="https://github.com/user-attachments/assets/397418ad-dc62-4d7a-bb0e-b17c8aa6a4b4" />
 
+- All rice commodities show similar trends even though their prices are different.
 
+- Actionable insights
+  - Regular milled rice is the cheapest choice so stakeholders are advised to include it for menu products.
 
+### Potato Variants Avg. Prices ###
+<img width="1978" height="909" alt="Non-Rice" src="https://github.com/user-attachments/assets/537bf45a-8cc4-4acf-a155-eb51aa8e33ef" />
 
+- Irish potatoes show more instability than sweet potatoes.
+  - It is also considerably more expensive, with peak inflation as Christmas season approaches while being at its lowest during mid-year. 
+- Actionable insights
+  - Both commodities, while similar, are different in taste.
+    - Sweet potatoes cannot be a complete substitute for Irish potatoes.
+  - Stakeholders are advised to choose carefully between the two, if either one needs to be on the menu.
+  - If potatoes are needed, consider offering more potato-based menu products around mid-year to reduce expenses and to maximize profitability. 
 
+### Beans Avg. Prices ###
+<img width="1984" height="909" alt="Sheet 14" src="https://github.com/user-attachments/assets/4f59a6cf-2521-44a4-b22d-2d69fb5b6f03" />
+
+- For the past year, mung beans prices have exceeded shelled groundnuts, with a sharp increase in April 2026.
+- Based on its recent trend, mung beans could return to how it was priced in 2024.
+- Actionable insights
+  - Mung beans are another popular staple product in the country, so it can be added to the restaurant menu if needed.
+  - Shelled groundnuts are expected to continue its usual trend.
+  - Both commodities, like above, cannot be substitutes of each other.
+  - For consideration, shelled groundnuts are actually peanuts.
+    - Including them on the menu might post risks for potential customers with peanut allergies.
+
+### Coffee Beans Avg. Prices ###
+<img width="2007" height="909" alt="Sheet 15" src="https://github.com/user-attachments/assets/02f1baf7-470e-411d-8d41-503dadc301bd" />
+
+- Coffee bean prices per kilo are steadily on the rise.
+- While Arabica beans are more expensive than Robusta beans, the gap between them is closer than it was two years ago.
+  - Robusta bean prices increased sharply beginning March 2025.
+  - As per recent data, Robusta beans might continue its trend and could even surpass Arabica prices.
+- Actionable insights
+  - Coffee Robusta is preferable due to its lower pricing.
+  - Should Robusta beans exceed Arabica prices within the next months, stakeholders should switch bean commodities.
+
+## Key Recommendations ##
+**Chicken-based food menu**
+- It is recommended for the restaurant to prioritize chicken-based dishes given its affordability, low-costs, and general popularity.
+- Chicken is also a very versatile meat product.
+  - Chicken can be combined with other low cost commodities like regular milled rice and eggs, as well as potatoes.
+- The low cost of chicken might also allow stakeholders to buy additional and complementary commodities like onions and garlic.
+
+**Metro Manila as a business location**
+- Stakeholders are advised about the rising costs of food in the region.
+  - As per the data above, it is expected for food prices to continue rising in 2026 and perhaps even beyond.
+- To alleviate rising costs, it is recommended to choose a location within the region where both residents and non-residents alike can be potential customers of the restaurant.
+  - Location should be a place where people go through everyday like transport hubs, student-centered areas, business-
+  - Location recommendations:
+    - Monumento, Caloocan City
+    - University Belt Area, Manila City
+    - Binondo, Manila City
 
 
 
