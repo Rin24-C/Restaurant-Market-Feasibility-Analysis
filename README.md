@@ -1,4 +1,4 @@
-# Restaurant-Market-Feasibility-Analysis-WIP-
+# Restaurant Market Feasibility Analysis
 <img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/69f5930e-fb1b-4386-abec-58823bf166fb" />
 
 Image taken from: https://primer.com.ph/feature/must-visit-filipino-restaurants-in-metro-manila/
